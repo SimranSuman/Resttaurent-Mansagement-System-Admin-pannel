@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(min.jpg);
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.center{
+    width: 420px;
+    margin: 2px auto;
+    position: relative;  
+    padding-top: 150px;  
+}
+.center  .header{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right,#000,#A52A2A); 
+    padding:40px 0 40px 35px;
+    /*background: antiquewhite;*/
+    border-bottom: 1px solid ;
+    border-radius: 10px 12px 0 0;
+
+}
+.center form{
+    position: absolute;
+    background: white;
+    width: 88%;
+    padding: 20px 22px 0 32px;
+    /*box-sizing: border-box;*/
+    /*border: 1px solid pink;*/
+    border-radius: 0 0 5px 5px;
+}
+form input{
+    height: 50px;
+    width: 80%;
+    padding: 0 5px;
+    border-radius: 3px;
+    /*border: 1px solid pink;*/
+    font-size: 18px;
+    outline: none;
+}
+/*form input[type="submit"]
+{
+    margin: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: pink;
+}
+*/
+/*.toggle-btn{
+    padding: 10px 30px;
+    background: linear-gradient(to right,#ff105f,#ffad06);;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+*/
+.submit-btn{
+    width: 70%;
+    padding: 20px 30px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    margin: 40px;
+    background: linear-gradient(to right,#000,#A52A2A);
+    border: 0;
+    outline: none;
+    /*border-radius: 30px;*/
+    font-size: 15px;
+    border-radius: 30px;
+}
+/*form input[type="submit"]:hover{
+    background:pink;
+    transition: .5s;
+}
+*/
+
+/*---------------------------------------------------------------------footer-use-------------------------------------------*/
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  .outer-footer
+  {
+    padding: 20px;
+    text-align: center;
+    margin-top: 370px;
+    color: black;
+    font-size: 18px;
+    background-color: burlywood;
+  }

@@ -1,0 +1,150 @@
+#body{
+    font-family: latha;
+    color: white;
+    background: url(min.jpg);
+      background-size:cover;
+  }
+  .dropdown{
+    margin:  0 auto;
+    background-color: burlywood;
+    
+  }
+  nav{
+    height: 5px;
+  }
+  nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 2px;
+    background-color: burlywood;
+  }
+  nav ul li{
+    margin: 25px auto;
+    padding: 10px;
+   /* position: relative;
+    list-style: none;*/
+    display: inline-block;
+
+  }
+  ul li a{text-decoration: none;
+    color: black;
+  }
+   ul li:hover{background-color: green;}
+   ul li a:hover{color:white;}
+  
+  nav ul li a{
+    display: block;
+    padding: 0 10px;
+    color: black;
+    text-decoration: none;
+    line-height: 15px;
+    font-size: 20px;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+  }
+  nav ul li:hover > ul{
+      display: block;
+  }
+  nav ul ul li{
+    width: 160px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+
+  /*.wd{
+     width: 300px;
+     height: 620px;
+     background-color: black;
+     opacity: 0.9;
+     padding: 55px;
+     }
+  
+  
+  .wd h1{
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 100px;
+    }
+  
+  wd h4{
+     text-align: justify;
+     color: darkgray;
+     font-weight: normal;
+    }
+  
+  .wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+    }
+    .submit-btn
+  {
+    margin-top: 20px;
+    margin-right: 170px;
+    background: transparent;
+    background: white;
+    color:black;
+    width: 150px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    border: 0;
+    outline: none;
+  
+  }
+  .submit-btn:hover{background-color: green;}
+      /*.header{
+      background-color:ghostwhite;
+        margin: 1px;
+      border-bottom: 70px solid #c1bdb1;
+      }*/
+  
+      .image-section{
+        width: 100%;
+        padding: 2px;
+        float: right;
+      }
+      .image-section img{
+        width: 70%;
+        height: auto;
+      }
+
+    /*--------------------------------------------------------------------------------*/
+
+      .contain h1{
+        margin: 0;
+        padding: 0;
+        font-size: 54px;  
+        text-align: left;
+        color:black;
+        background-color: burlywood;
+      }
+          
+    
+       /*---------------------------------------------------------------------footer-use-------------------------------------------*/
+ 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.outer-footer
+{
+  padding: 15px;
+  margin: 10px;
+  margin-top: 520px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  background-color: burlywood;
+}
